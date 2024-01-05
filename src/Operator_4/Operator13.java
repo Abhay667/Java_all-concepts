@@ -7,6 +7,7 @@ public class Operator13 {
 		int x= (int)d;
 		System.out.println(x);
         byte b= (byte)d;
+        
         System.out.println(b);
 
 	}
