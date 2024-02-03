@@ -1,7 +1,7 @@
 package overloading;
 
 class B {
-	void m(double a) {
+	void m(char a) {
 		System.out.println("double type");
 	}
 }
