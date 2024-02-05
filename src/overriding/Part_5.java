@@ -1,23 +1,23 @@
 package overriding;
 
-class E {
-	void sum(int a, int b) {
-		System.out.println("Sum " + a + b + " of class E");
+class I {
+	private void m1() {
+System.out.println("class I method");
 	}
+
 }
 
-class F extends E {
-	void sum(int a, int b) {
-		System.out.println("Sum " + a + b + " of class F");
+class J extends I {
+	private void m1() {
+System.out.println("class J method");
 	}
 }
 
 public class Part_5 {
 
 	public static void main(String[] args) {
-		E RefP = new F();
-		RefP.sum(10, 5);
-
+		I i = new J();
+		i.m1();
 	}
 
 }

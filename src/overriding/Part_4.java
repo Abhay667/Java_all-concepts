@@ -1,14 +1,16 @@
 package overriding;
 
-class C {
-	void sum(int a, int b) {
-		System.out.println("Sum " + a + b + " of class C");
+class G {
+	int m1() {
+		System.out.println("Object return type");
+		return 5;
 	}
 }
 
-class D extends C {
-	void sum(int a, int b) {
-		System.out.println("Sum, " + a + b + " of class D");
+class H extends G {
+	double m1() {
+		System.out.println("String return type");
+		return 6.9;
 	}
 
 }
@@ -16,9 +18,8 @@ class D extends C {
 public class Part_4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		D RefC = new D();
-		RefC.sum(10, 5);
+		G a = new H();
+		a.m1();
 	}
 
 }

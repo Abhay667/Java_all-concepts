@@ -1,24 +1,24 @@
 package overriding;
 
-class E {
-	Number m1() {
+class C {
+	Object m1() {
 		System.out.println("Object return type");
-		return 5;
+		return new A();
 	}
 }
 
-class F extends E {
-	Byte m1() {
+class D extends C {
+	String m1() {
 		System.out.println("String return type");
-		return 6;
+		return "hi";
 	}
 
 }
 
-public class Part_3 {
+public class part_2 {
 
 	public static void main(String[] args) {
-		E a = new F();
+		C a = new D();
 		a.m1();
 	}
 
