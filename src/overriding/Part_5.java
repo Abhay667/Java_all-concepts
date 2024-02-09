@@ -2,14 +2,14 @@ package overriding;
 
 class I {
 	private void m1() {
-System.out.println("class I method");
+		System.out.println("class I method");
 	}
 
 }
 
 class J extends I {
 	private void m1() {
-System.out.println("class J method");
+		System.out.println("class J method");
 	}
 }
 
