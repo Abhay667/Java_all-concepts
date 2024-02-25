@@ -1,6 +1,7 @@
 package overriding;
 
 import java.io.EOFException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 class A15 {
@@ -10,7 +11,7 @@ class A15 {
 }
 
 class A16 extends A15  {
-	void m1() throws EOFException,InterruptedException {
+	void m1() throws EOFException,FileNotFoundException {
 		System.out.println("class 16");
 	}
 }
