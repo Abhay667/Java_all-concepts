@@ -3,7 +3,7 @@ package overriding;
 import java.io.IOException;
 
 class A47 {
-	public void m1(int x)throws IOException {
+	public void m1(int x) throws IOException {
 		System.out.println("class A47");
 	}
 }
