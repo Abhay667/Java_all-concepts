@@ -1,8 +1,7 @@
 package overriding;
 
-
 class A41 {
-	 static int x = 9;
+	static int x = 9;
 
 }
 
@@ -25,3 +24,5 @@ public class Part_34 {
 	}
 
 }
+
+

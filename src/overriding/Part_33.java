@@ -5,7 +5,7 @@ class A39 {
 
 }
 
-class A40  extends A39 {
+class A40 extends A39 {
 	static int x = 10;
 }
 

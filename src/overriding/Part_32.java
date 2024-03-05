@@ -1,12 +1,12 @@
 package overriding;
 
 class A37 {
-	 static int x = 9;
+	static int x = 9;
 
 }
 
 class A38 extends A37 {
-int x = 10;
+	int x = 10;
 }
 
 public class Part_32 {
