@@ -24,13 +24,11 @@
 //
 //}
 //
-//public class Part_10 {
+//public class Part_11 {
 //
 //	public static void main(String[] args) {
 //		Base2 b = new Drive4();
-//		Object o = (Drive3) b;
-////       A     b =   (C)   d;
-//
+//		Base2 b = (Base1) b;
 //	}
 //
 //}
