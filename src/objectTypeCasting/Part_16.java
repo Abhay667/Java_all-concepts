@@ -17,7 +17,7 @@ public class Part_16 {
 
 	public static void main(String[] args) {
 		C1 c = new C1();
-		((P1) c).m1();
+		 ((P1) c).m1();
 
 	}
 
