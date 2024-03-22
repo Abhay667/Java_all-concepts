@@ -1,4 +1,5 @@
 package objectTypeCasting;
+
 class P4 {
 	void m1() {
 		System.out.println("parent class method");
@@ -15,9 +16,10 @@ public class Part_19 {
 
 	public static void main(String[] args) {
 		C4 c = new C4();
-		((P)c).m2();
-//		P4 p = new C4();
-//		p.m2();
+		((P) c).m2();
+		/*
+		 * means: - P4 p = new C4(); p.m2();
+		 */
 
 	}
 
